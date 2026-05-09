@@ -1,0 +1,50 @@
+/* Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+
+  /* Smooth gradient background */
+  background: linear-gradient(to bottom, 
+              #87CEEB,   /* sky blue at top */
+              #FFDAB9);  /* light orange at bottom */
+  min-height: 100vh;
+}
+
+/* Headings */
+h1 {
+  color: #222;
+}
+h2, h3 {
+  color: #444;
+}
+
+/* Price */
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #e63946;
+}
+
+/* Product Image */
+img {
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* Button Styling */
+button {
+  background-color: #4682B4; /* steel blue */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #FF8C00; /* dark orange on hover */
+}
